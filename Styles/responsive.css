@@ -1,0 +1,106 @@
+/* START OF NAVIGATION BAR RESPONSIVENESS STYLES */
+
+/* Making A Responsive Navigation Bar For Small Display Laptops And PCs */
+
+@media (max-width: 1267px) 
+{
+    nav#top-nav-bar .menu-bar 
+    {
+        right: 0;
+        margin: 0 15px;
+    }
+}
+
+/* Making A Responsive Navigation Bar For Smaller Display Laptops And PCs */
+
+@media (max-width: 1050px) 
+{
+    nav#top-nav-bar a#logo-nav-bar 
+    {
+        left: 2%;
+    }
+
+    nav#top-nav-bar .menu-bar 
+    {
+        margin: 0 0px;
+    }
+}
+
+/* Making A Responsive Navigation Bar For Tablets And Smartphones */
+
+@media (max-width : 906px)
+{
+    nav#top-nav-bar 
+    {
+        max-height: 20px;
+    }
+    nav#top-nav-bar .menu-bar
+    {
+        position: absolute;
+		top: 100%;
+		right: -100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+    }
+    nav#top-nav-bar .menu-bar.open-nav-bar
+    {
+        left: 25%;
+        background-color: var(--mobile-background-color);
+        width: 100%;
+        height: 100vh;
+        z-index: 5;
+    }
+    nav#top-nav-bar .menu-bar.open-nav-bar a
+    {
+        color: var(--white);
+        margin: 15px 0px;
+        left: 23%;
+        width: 25%;
+        font-size: 15px;
+        font-weight: 550;
+    }
+    nav#top-nav-bar .menu-bar.open-nav-bar a span.links-nav-bar:hover
+    {
+        color: var(--white);
+        border: none;
+    }
+    nav#top-nav-bar .menu-bar.open-nav-bar a:hover
+    {
+        border-bottom: 3.4px solid var(--active-color);
+        border-radius: 3.5px;
+    }
+    nav#top-nav-bar .menu-bar.open-nav-bar a.is-active
+    {
+        border-bottom: 3.4px solid var(--active-color);
+        border-radius: 3.5px;
+    }
+    nav#top-nav-bar .menu-bar a.is-active span.links-nav-bar
+    {
+        color: var(--white);
+        border: none;
+    }
+    nav#top-nav-bar .bx-menu
+    {
+        display: flex;
+        font-size: 32px;
+        font-weight: 900;
+        right: 2%;
+    }
+    nav#top-nav-bar .bx-menu:hover
+    {
+        animation: cross 0.5s 3;
+    }
+    nav#top-nav-bar .bx-x
+    {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    nav#top-nav-bar .bx-x:hover
+    {
+        animation : cross 0.5s 3;
+    }
+}
+
+/* END OF NAVIGATION BAR RESPONSIVENESS STYLES */
+

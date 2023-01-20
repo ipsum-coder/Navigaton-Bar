@@ -1,0 +1,99 @@
+/* Animation For Text Shake On Hover In Navigation bar */
+
+@keyframes shake 
+{
+    0%
+    {
+        transform: translateY(0)
+    }
+    5%
+    {
+        transform: translateY(0.2px);
+    }
+    10%
+    {
+        transform : translateY(0.4px)
+    }
+    15%
+    {
+        transform : translateY(0.6px)
+    }
+    20%
+    {
+        transform : translateY(0.8px)
+    }
+    25%
+    {
+        transform: translateY(1px);
+    }
+    30%
+    {
+        transform: translateY(1.2px);
+    }
+    35%
+    {
+        transform: translateY(1.4px);
+    }
+    40%
+    {
+        transform: translateY(1.6px);
+    }
+    45%
+    {
+        transform: translateY(1.8px);
+    }
+    50%
+    {
+        transform : translateZ(-1.8px);
+    }
+    55%
+    {
+        transform: translateZ(-1.6px);
+    }
+    60%
+    {
+        transform: translateZ(-1.4px);
+    }
+    65%
+    {
+        transform: translateZ(-1.2px);
+    }
+    70%
+    {
+        transform: translateZ(-1px);
+    }
+    75%
+    {
+        transform: translateZ(-0.8px);
+    }
+    80%
+    {
+        transform: translateZ(-0.6px);
+    }
+    85%
+    {
+        transform : translateZ(-0.4px)
+    }
+    90%
+    {
+        transform: translateZ(-0.2px);
+    }
+    100%
+    {
+        transform: translateZ(0);
+    }
+}
+
+/* Animation For Hamburger Icon To Cross Icon And Back */
+
+@keyframes cross
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(180deg);
+    }
+}
